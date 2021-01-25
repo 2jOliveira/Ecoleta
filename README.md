@@ -19,7 +19,7 @@ O projeto tem como finalidade **estabelecer uma conexão** entre **empresas e/ou
 ## **💻  TECNOLOGIAS**
 
 
-#### **Frontend-Web** ([React][react] + [TypeScript][typescript])
+#### **Front end/Web** ([React][react] + [TypeScript][typescript])
 
   - **[React Router Dom][react_router_dom]**
   - **[React Icons][react_icons]**
@@ -31,7 +31,7 @@ O projeto tem como finalidade **estabelecer uma conexão** entre **empresas e/ou
 
   \* Veja o arquivo <kbd>[package.json](./web/package.json)</kbd>
 
-#### **Backend** ([NodeJS][node] + [TypeScript][typescript])
+#### **Back end** ([NodeJS][node] + [TypeScript][typescript])
 
   - **[Express][express]**
   - **[CORS][cors]**
@@ -45,7 +45,7 @@ O projeto tem como finalidade **estabelecer uma conexão** entre **empresas e/ou
 
   \* Veja o arquivo <kbd>[package.json](./backend/package.json)</kbd>
 
-#### **Frontend-Mobile** ([React Native][react_native] + [TypeScript][typescript])
+#### **Front end/Mobile** ([React Native][react_native] + [TypeScript][typescript])
 
   - **[Expo][expo]**
   - **[Expo Google Fonts][expo_google_fonts]**
@@ -122,7 +122,7 @@ $ npm install
 
 Veja os arquivos **`package.json`** do <kbd>[back end](./backend/package.json)</kbd>, <kbd>[front end web](./web/package.json)</kbd> e <kbd>[mobile](./mobile/package.json)</kbd>.
 
-### Utilizando o Server
+### Utilizando o Back end
 
 ```sh
 # Abrindo o terminal no diretório do servidor:
@@ -140,7 +140,7 @@ $ npm run knex:seed
 
 > Veja a parte de **scripts {}** do arquivo <kbd>[package.json](./backend/package.json)</kbd> para saber quais scripts estão disponíveis.
 
-### Utilizando o Website
+### Utilizando o Front end/web
 
 ```sh
 # Abrindo o terminal no diretório web:
@@ -152,7 +152,7 @@ $ npm run start
 
 > Se o browser não abrir automaticamente, acesse: http://localhost:3000.
 
-### Utilizando o Mobile
+### Utilizando o Front end/Mobile
 
 Instale o aplicativo <kbd>[Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en)</kbd> no seu smartphone.
 
